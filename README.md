@@ -1,3 +1,19 @@
+# Information Retrieval System (Cranfield Dataset)
+This project implements an Information Retrieval system using **VSM, BM25, and Language Models** to rank documents.
+
+##Files Included
+- `vsm.py` - Vector Space Model implementation.
+- `bm25.py` - BM25 ranking implementation.
+- `lm.py` - Language Model implementation.
+- `cranfield_docs.xml` - Dataset for document retrieval.
+
+##How to Run
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+2. run the code:
+   python vsm.py/bm25.py/LM.py
+3. Check vsm/bm25/lm.output.txt
 
 - [Cranfield collection in TREC XML format](#cranfield-collection-in-trec-xml-format)
   - [1. What is Cranfield dataset ?](#1-what-is-cranfield-dataset-)
